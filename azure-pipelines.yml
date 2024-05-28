@@ -24,7 +24,7 @@ steps:
 - task: Docker@2
   inputs:
     command: 'buildAndPush'
-    repository: 'your-docker-repo/app2'
+    repository: 'abdn1/app2'
     dockerfile: '**/Dockerfile'
     tags: '$(Build.BuildId)'
     containerRegistry: 'your-container-registry'
