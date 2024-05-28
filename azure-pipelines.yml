@@ -27,4 +27,4 @@ steps:
     repository: 'abdn1/app2'
     dockerfile: '**/Dockerfile'
     tags: '$(Build.BuildId)'
-    containerRegistry: 'your-container-registry'
+    containerRegistry: 'devopsprojk200496.azurecr.io'
